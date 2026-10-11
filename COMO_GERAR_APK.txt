@@ -1,0 +1,13 @@
+VIDA CONECTA — GERAR APK NO GITHUB
+
+1. Crie um repositório separado no GitHub chamado vida-conecta-android (não substitua o código do servidor).
+2. Envie TODOS os arquivos e pastas deste pacote para a RAIZ do repositório, incluindo a pasta oculta .github.
+3. No GitHub, abra Actions > Gerar APK Vida Conecta > Run workflow > Run workflow.
+4. Aguarde a execução terminar com sucesso.
+5. Abra a execução e, em Artifacts, baixe VidaConecta-Android-APK.
+6. Extraia o ZIP baixado: dentro estará app-debug.apk. Instale-o no Android.
+
+Este APK é uma versão DEBUG para testes e instalação manual, não uma versão de publicação na Play Store.
+O aplicativo é um WebView e requer internet; ele abre https://vida-conecta-production.up.railway.app/.
+O servidor Railway e o banco Postgres não são modificados.
+Se a compilação falhar, compartilhe o log da execução para correção.

@@ -1,0 +1,16 @@
+VIDA CONECTA — APLICATIVO ANDROID (PROJETO-FONTE)
+
+Este ZIP contém o projeto Android Studio, NÃO um APK pronto.
+O aplicativo abre o Vida Conecta online, mantendo os dados no servidor Railway existente.
+Logo: imagem original enviada, apenas redimensionada para os tamanhos de ícone.
+
+COMO GERAR O APK:
+1. Instale o Android Studio no computador.
+2. Abra a pasta VidaConectaAndroid (File > Open).
+3. Aguarde a sincronização do Gradle e instalação do SDK Android 35, se solicitada.
+4. Menu Build > Build App Bundle(s) / APK(s) > Build APK(s).
+5. APK de teste: app/build/outputs/apk/debug/app-debug.apk.
+
+O app depende de internet. A tela e as funções vêm do site existente.
+Este projeto não foi compilado/testado em dispositivo neste ambiente.
+Para distribuir publicamente, faça testes e gere APK assinado para lançamento.
